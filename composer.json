@@ -1,0 +1,22 @@
+{
+    "name": "jolan/laravel-paybear",
+    "description": "Laravel integration for PayBear",
+    "keywords": ["laravel", "paybear", "cryptocurrency", "payment"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "highjhacker",
+            "email": "jolanbeer@gmail.com",
+            "homepage": "https://github.com/highjhacker"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "illuminate/support": "^5.7",
+        "illuminate/database": "^5.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    }
+}

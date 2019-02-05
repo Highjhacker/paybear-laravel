@@ -1,5 +1,5 @@
 {
-    "name": "jolan/laravel-paybear",
+    "name": "highjhacker/laravel-paybear",
     "description": "Laravel integration for PayBear",
     "keywords": ["laravel", "paybear", "cryptocurrency", "payment"],
     "type": "library",

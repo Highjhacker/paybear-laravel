@@ -23,6 +23,6 @@ class Paybear extends AbstractAPI
 {
     public function getCurrencies() {
         # Should probably use secret_key instead
-        return $this->get('/v2/currencies', ['token' =>config('paybear.public_key' || 'my_public_key')]);
+        return $this->get('/v2/currencies', ['token' => config('paybear.public_key')]);
     }
 }

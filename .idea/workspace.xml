@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8023c62-0e56-41e4-b6bc-b0a7baef87ff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/laravel-paybear.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-paybear.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/API/AbstractAPI.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/AbstractAPI.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PaybearServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/PaybearServiceProvider.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,17 +20,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Connection.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="851">
-              <caret line="64" column="40" lean-forward="true" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
+            <state relative-caret-position="302">
+              <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
               <folding>
                 <element signature="e#33#262#0#PHP" />
                 <element signature="e#296#317#0#PHP" expanded="true" />
-                <element signature="e#399#487#0#PHP" />
                 <element signature="e#511#595#0#PHP" />
                 <element signature="e#732#865#0#PHP" />
                 <element signature="e#1501#1646#0#PHP" />
                 <element signature="e#1902#2042#0#PHP" />
                 <element signature="e#2354#2438#0#PHP" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/PaybearServiceProvider.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+              <folding>
+                <element signature="e#33#262#0#PHP" />
               </folding>
             </state>
           </provider>
@@ -47,6 +57,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/API/AbstractAPI.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/paybear.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
@@ -55,10 +74,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="88">
               <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
             </state>
           </provider>
@@ -90,12 +109,12 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/src/.env" />
-        <option value="$PROJECT_DIR$/src/API/AbstractAPI.php" />
-        <option value="$PROJECT_DIR$/src/Connection.php" />
-        <option value="$PROJECT_DIR$/src/PaybearServiceProvider.php" />
         <option value="$PROJECT_DIR$/config/paybear.php" />
         <option value="$PROJECT_DIR$/src/API/Paybear.php" />
         <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/src/API/AbstractAPI.php" />
+        <option value="$PROJECT_DIR$/src/Connection.php" />
+        <option value="$PROJECT_DIR$/src/PaybearServiceProvider.php" />
       </list>
     </option>
   </component>
@@ -194,24 +213,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="API" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="laravel-paybear" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-paybear" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel-paybear" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-paybear" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="illuminate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="laravel-paybear" type="b2602c69:ProjectViewProjectNode" />
-              <item name="laravel-paybear" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="illuminate" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -248,12 +249,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549369169445</updated>
-      <workItem from="1549369170546" duration="18235000" />
+      <workItem from="1549369170546" duration="18575000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18235000" />
+    <option name="totallyTimeSpent" value="18575000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -360,53 +361,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/API/AbstractAPI.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/illuminate/support/helpers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="16" column="26" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PaybearServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-          <folding>
-            <element signature="e#33#262#0#PHP" />
-            <element signature="e#415#469#0#PHP" />
-            <element signature="e#771#902#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Connection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
-          <caret line="64" column="40" lean-forward="true" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
-          <folding>
-            <element signature="e#33#262#0#PHP" />
-            <element signature="e#296#317#0#PHP" expanded="true" />
-            <element signature="e#399#487#0#PHP" />
-            <element signature="e#511#595#0#PHP" />
-            <element signature="e#732#865#0#PHP" />
-            <element signature="e#1501#1646#0#PHP" />
-            <element signature="e#1902#2042#0#PHP" />
-            <element signature="e#2354#2438#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/API/Paybear.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -419,8 +377,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
+        <state relative-caret-position="88">
           <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/API/Paybear.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/API/AbstractAPI.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+          <folding>
+            <element signature="e#33#262#0#PHP" />
+            <element signature="e#296#317#0#PHP" expanded="true" />
+            <element signature="e#511#595#0#PHP" />
+            <element signature="e#732#865#0#PHP" />
+            <element signature="e#1501#1646#0#PHP" />
+            <element signature="e#1902#2042#0#PHP" />
+            <element signature="e#2354#2438#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PaybearServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="e#33#262#0#PHP" />
+          </folding>
         </state>
       </provider>
     </entry>

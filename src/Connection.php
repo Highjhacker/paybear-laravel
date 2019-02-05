@@ -21,7 +21,7 @@ use GuzzleHttp\HandlerStack;
 /**
  * This is the connection class.
  *
- * @author Highjhacker <jolanbeer@gmail.com>
+ * @author Brian Faust <brian@ark.io>
  */
 class Connection
 {

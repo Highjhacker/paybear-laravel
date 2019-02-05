@@ -30,11 +30,4 @@ class PaybearServiceProvider extends ServiceProvider
             __DIR__.'/../config/paybear.php' => config_path('paybear.php'),
         ], 'config');
     }
-
-    /**
-    public function register()
-    {
-        $this->mergeConfigFrom(__DIR__.'/../config/paybear.php', 'paybear');
-    }
-     */
 }

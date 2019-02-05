@@ -18,7 +18,7 @@ use Highjhacker\Paybear\Connection;
 /**
  * This is the abstract resource class.
  *
- * @author Highjhacker <jolanbeer@gmail.com>
+ * @author Brian Faust <brian@ark.io>
  */
 abstract class AbstractAPI
 {

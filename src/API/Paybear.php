@@ -35,9 +35,18 @@ class Paybear extends AbstractAPI
         $this->token = config('paybear.public_key');
     }
 
-    public function getAddress($orderId='7e691214bebe31eaa4b813c59825391b', $token='ETH')
+    /**
+     * Create a payment request on PayBear with a GET request
+     *
+     * @param string $crypto
+     * @param string $orderId
+     * @return array
+     */
+    public function createPaymentRequest($crypto='eth', $orderId='7e691214bebe31eaa4b813c59825391b') : array
     {
-        $callbackUrl = 'http://CHANGEME.com/callback.php?id='.$orderId;
+        $CONFIRMATIONS = 3;
+        $callbackUrl = urlencode(config('paybear.callback_url') . "?id=${orderId}");
+        return $this->get("/v2/{$crypto}/payment/${callbackUrl}", ['token' => $this->token]);
     }
 
     /**

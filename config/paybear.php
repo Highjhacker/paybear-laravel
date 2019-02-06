@@ -13,5 +13,6 @@ declare(strict_types=1);
 
 return [
     'public_key' => env('PAYBEAR_PUBLIC_KEY'),
-    'private_key' => env('PAYBEAR_PRIVATE_KEY')
+    'private_key' => env('PAYBEAR_PRIVATE_KEY'),
+    'callback_url' => env('PAYBEAR_CALLBACK_URL')
 ];
